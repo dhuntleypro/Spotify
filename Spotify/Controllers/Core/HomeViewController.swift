@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     // Programamic setup
     /*
@@ -17,11 +17,12 @@ class ViewController: UIViewController {
      4. Update SceneDelegate and AppDelegate
      
      */
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         title = "Home"
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
     }
     
     
