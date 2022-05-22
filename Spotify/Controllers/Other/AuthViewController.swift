@@ -21,6 +21,8 @@ class AuthViewController: UIViewController , WKNavigationDelegate {
         
     }()
     
+    public var completionHandler: ((Bool) -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Sign In"
@@ -28,5 +30,10 @@ class AuthViewController: UIViewController , WKNavigationDelegate {
         webView.navigationDelegate = self
         view.addSubview(webView)
     
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        webView.frame = view.bounds
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868F148C2839811D0002AA18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F148B2839811D0002AA18 /* Extensions.swift */; };
 		E30B7CB727C41B3000A8F299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B7CB627C41B3000A8F299 /* AppDelegate.swift */; };
 		E30B7CB927C41B3000A8F299 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B7CB827C41B3000A8F299 /* SceneDelegate.swift */; };
 		E30B7CBB27C41B3000A8F299 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B7CBA27C41B3000A8F299 /* HomeViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		868F148B2839811D0002AA18 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E30B7CB327C41B3000A8F299 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30B7CB627C41B3000A8F299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E30B7CB827C41B3000A8F299 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		868F148A283907530002AA18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		E30B7CAA27C41B2F00A8F299 = {
 			isa = PBXGroup;
 			children = (
@@ -90,8 +99,8 @@
 			children = (
 				E30B7CCE27C41B7800A8F299 /* Resources */,
 				E30B7CCF27C41BA200A8F299 /* Managers */,
-				E30B7CCD27C41B7000A8F299 /* ViewModels */,
 				E30B7CCC27C41B6C00A8F299 /* Models */,
+				868F148A283907530002AA18 /* ViewModels */,
 				E30B7CCB27C41B6500A8F299 /* Views */,
 				E30B7CCA27C41B5700A8F299 /* Controllers */,
 				E30B7CC427C41B3100A8F299 /* Info.plist */,
@@ -127,19 +136,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E30B7CCD27C41B7000A8F299 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		E30B7CCE27C41B7800A8F299 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				E30B7CBF27C41B3100A8F299 /* Assets.xcassets */,
 				E30B7CB827C41B3000A8F299 /* SceneDelegate.swift */,
 				E30B7CB627C41B3000A8F299 /* AppDelegate.swift */,
+				868F148B2839811D0002AA18 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,8 +160,8 @@
 		E30B7CD627C4211A00A8F299 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E30B7CBA27C41B3000A8F299 /* HomeViewController.swift */,
 				E30B7CD027C420B900A8F299 /* TabBarViewController.swift */,
+				E30B7CBA27C41B3000A8F299 /* HomeViewController.swift */,
 				E30B7CD227C420FC00A8F299 /* SearchViewController.swift */,
 				E30B7CD427C4211500A8F299 /* LibraryViewController.swift */,
 			);
@@ -262,6 +265,7 @@
 				E30B7CD927C421D700A8F299 /* AuthViewController.swift in Sources */,
 				E30B7CB727C41B3000A8F299 /* AppDelegate.swift in Sources */,
 				E30B7CF327C422F800A8F299 /* UserProfile.swift in Sources */,
+				868F148C2839811D0002AA18 /* Extensions.swift in Sources */,
 				E30B7CD527C4211500A8F299 /* LibraryViewController.swift in Sources */,
 				E30B7CF127C422EA00A8F299 /* Artist.swift in Sources */,
 				E30B7CE327C4223E00A8F299 /* PlaylistViewController.swift in Sources */,
